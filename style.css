@@ -1,0 +1,67 @@
+.beranda {
+  background-image: url("./img/wow.jpg"); 
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+
+/* Style untuk halaman produk */
+.produk {
+    background-color: #ffc107;
+    padding: 100px 0;
+}
+.produk img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.produk h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.produk p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+/* Style untuk tombol beli */
+.produk .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+/* Hover effect pada tombol beli */
+.produk .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.1);
+}
+/* Style untuk halaman kontak */
+.kontak {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+}
+/* Style untuk halaman tentang */
+.tentang {
+    background-color: #28a745;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* Style untuk judul */
+h1 {
+    font-size: 3rem;
+}
+
+/* Style untuk teks */
+p {
+    font-size: 1.25rem;
+}
+
+/* Style untuk tombol */
+.btn {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    border-radius: 30px;
+}
